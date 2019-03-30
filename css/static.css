@@ -1,0 +1,41 @@
+body{
+  background: red;
+text-align: center;
+}
+.parent{
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.left{
+  background: blue;
+  width:28;
+  height:60;
+  border: 2px solid blue;
+  text-align: center;
+}
+.right{
+  background: yellow;
+  width:68%;
+  border: 15px solid grey;
+text-align: left;
+}
+table{
+  font-size: 10px;
+}
+@media screen and (max-width:767px){
+  .parent{
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    background: green;
+    width:90%;
+  }
+  .right{
+    width:90%;
+  }
+
+}

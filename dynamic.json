@@ -1,0 +1,37 @@
+{
+	"profile": {
+		"image": "images/babygirl.jpg",
+		"name": "vaishnavi",
+		"Designation": "student",
+		"phone_no": "9642945722",
+		"email_id": "masapallivaishnavi30@gmail.com"
+	},
+	"career": {
+		"info": "To be excel in the field whichever i choose."
+	},
+	"Education_details": [{
+		"Qualification": "B.Tech",
+		"Institute": "MITS",
+		"percentage": "90%",
+		"yop": "2021"
+	}, {
+		"Qualification": "INTER",
+		"Institute": "SRI CHAITHANYA JUNIOR COLLEGE",
+		"percentage": "92%",
+		"yop": "2017"
+	}, {
+		"Qualification": "SCHOOL",
+		"Institute": "SRI CHAITHANYA TECHNO SCHOOL",
+		"percentage": "94%",
+		"yop": "2015"
+	}],
+	"Skills": [{
+			"Name": "web technologies",
+			"info": ["Html", "css", "js"]
+		},
+		{
+			"Name": "database",
+			"info": ["jdbc", "firebase", "sql", "sqlite"]
+		}
+	]
+}
